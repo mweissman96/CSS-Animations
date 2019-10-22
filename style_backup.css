@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+div{
+height:100px;
+width:100px;
+background:red;
+  transform: scale(0.8) scaleZ(2.2) rotateX(45deg) rotateY(45deg);
+
+/* position:relative;
+top:0;  */
+
+/* transform:translateX(100px);   */
+
+//transition:all 1s linear;
+
+
+
+}
+
+div:hover{
+
+  background:green;
+
+ transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+
+/*    transform: scale(1.2); */
+/*   transform: skewX(-20deg)
+   */
+/*   top:100px; */
+
+}
+div:active{
+
+  background:yellow;
+
+ transform: scale(2) scaleZ(2) rotateX(0) rotateY(0);
+
+/*    transform: scale(1.2); */
+/*   transform: skewX(-20deg)
+   */
+/*   top:100px; */
+
+}
