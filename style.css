@@ -45,6 +45,8 @@ body {
   border: 2px solid black;
   overflow:hidden;
   background: limegreen;
+  display: inline-block;
+  margin: 14px;
 }
 
 
